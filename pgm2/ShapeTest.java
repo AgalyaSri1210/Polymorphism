@@ -4,17 +4,17 @@ public class ShapeTest {
 
 	public static void main(String[] args) {
 		Shape sp=new Shape();
-		Triangle tri=new Triangle();
-		Circle cir=new Circle();
-		Square sqa=new Square();
+		Shape c=new Circle();
+		Shape t=new Triangle();
+		Shape s=new Square();
 		sp.draw();
-		tri.draw();
-		cir.draw();
-		sqa.draw();
+		c.draw();
+		t.draw();
+		s.draw();
 		sp.erase();
-		tri.erase();
-		cir.erase();
-		sqa.erase();
+		c.erase();
+		t.erase();
+		s.erase();
 	}
 
 }
